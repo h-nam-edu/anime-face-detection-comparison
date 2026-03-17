@@ -1,6 +1,6 @@
 # Anime Face Detection: A Comparative Study (Haar Cascades vs. HOG+SVM vs. YOLO)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/h-nam-edu/anime-face-detection/blob/main/notebooks/01_comparative_study.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/h-nam-edu/anime-face-detection/blob/main/notebooks/01_comparative_study.ipynb](https://colab.research.google.com/drive/11f3IjuP-nFukuSCkKua-bfQQ5a1CktuU?usp=sharing))
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Abstract
