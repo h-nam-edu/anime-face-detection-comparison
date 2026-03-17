@@ -1,0 +1,21 @@
+# Core Data Science & Math
+numpy
+pandas
+
+# Image Processing & Computer Vision
+opencv-python-headless  # Used for cv2 (headless is smaller and better for cloud/server environments)
+scikit-image            # Used for skimage.feature.hog
+
+# Machine Learning & Deep Learning
+scikit-learn            # Used for sklearn.svm and model_selection
+ultralytics==8.4.21     # Used for the YOLO11 model (includes PyTorch automatically)
+
+# Data Acquisition & Management
+kagglehub               # Used to download splcher/animefacedataset
+datasets                # Used to stream the Hugging Face background dataset
+requests                # Used for downloading the Haar Cascade XML
+
+# Utilities & Visualization
+matplotlib              # Used for plotting bounding boxes and image pipelines
+tqdm                    # Used for progress bars
+pyyaml                  # Used for generating the YOLO data.yaml configuration

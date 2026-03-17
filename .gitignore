@@ -1,0 +1,58 @@
+# ==========================================
+# Python & Jupyter Exclusions
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+venv/
+env/
+.env
+.venv/
+
+# ==========================================
+# Project-Specific Data & Outputs
+# ==========================================
+# The generated YOLO formatting directory
+anime_face_yolo_dataset/
+
+# Ultralytics YOLO training runs (logs, plots, weights)
+runs/
+
+# YOLO label caches (created during the scanning phase)
+*.cache
+
+# ==========================================
+# Model Weights & Configs
+# ==========================================
+# Ignore all PyTorch weights (e.g., yolo11s.pt, best.pt)
+*.pt
+
+# Ignore the dynamically downloaded Haar cascade
+lbpcascade_animeface.xml
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# Data Folders (Ignore contents, keep structure)
+# ==========================================
+# Ignore all files inside the data directory
+data/*
+
+# ...But explicitly whitelist the tracking files and documentation
+!data/**/.gitkeep
+!data/README.md
