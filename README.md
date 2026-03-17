@@ -20,7 +20,7 @@ To handle the "flat" shading typical of anime artwork, we applied Contrast Limit
 ## Directory Structure
 * `notebooks/`: Contains the primary interactive computational pipeline.
 * `docs/`: Contains the accompanying formal technical report.
-* `data/`: Local directory for dynamically downloaded Kaggle and Hugging Face datasets.
+* `weights/`: Contains all the models for the three methods discussed in the research.
 
 ## Installation
 
