@@ -28,15 +28,6 @@ runs/
 *.cache
 
 # ==========================================
-# Model Weights & Configs
-# ==========================================
-# Ignore all PyTorch weights (e.g., yolo11s.pt, best.pt)
-*.pt
-
-# Ignore the dynamically downloaded Haar cascade
-lbpcascade_animeface.xml
-
-# ==========================================
 # OS Generated Files
 # ==========================================
 .DS_Store
