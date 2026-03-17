@@ -54,6 +54,12 @@ While the Haar Cascade generalized well spatially, the dense-scanning SVM strugg
 <img src="docs/assets/haar\_vs\_svm.jpg" alt="Haar vs SVM bounding boxes" width="600"/\>
 </p\>
 
+Conversely, the single-pass YOLO architecture natively resolved these localization constraints. Below is a final synthetic test highlighting this precision: YOLO (Magenta) achieves a remarkably tight bounding box that nearly perfectly overlaps the Ground Truth (Cyan), visually demonstrating its exceptionally high Intersection over Union (IoU) and robust detection capabilities where traditional methods failed.
+
+<p align="center"\>
+<img src="docs/assets/yolo.jpg" alt="Haar vs SVM bounding boxes" width="600"/\>
+</p\>
+
 ## Final Benchmark Results
 
 | Method | Recall (Accuracy) | FPS (Speed) | Avg IoU (Precision) | False Positives |
